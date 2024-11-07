@@ -20,6 +20,8 @@ public:
 private slots:
     void on_iniciarJogo_pushButton_clicked();
 
+    void ajustarParaTamanhoDoMonitor();
+
     void on_configuracoes_pushButton_clicked();
 
     void on_voltar_pushButton_clicked();

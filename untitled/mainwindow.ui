@@ -6,474 +6,415 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>5760</width>
-    <height>3240</height>
+    <width>1066</width>
+    <height>560</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QStackedWidget" name="stackedWidget">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>5760</width>
-      <height>3240</height>
-     </rect>
-    </property>
-    <widget class="QWidget" name="menu">
-     <widget class="QGraphicsView" name="menu_graphicsView">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>1920</width>
-        <height>1080</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QWidget" name="verticalLayoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>240</x>
-        <y>110</y>
-        <width>501</width>
-        <height>481</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
-       <item>
-        <widget class="QPushButton" name="iniciarJogo_pushButton">
-         <property name="text">
-          <string>Iniciar Jogo</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="configuracoes_pushButton">
-         <property name="text">
-          <string>Configurações</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="sair_pushButton">
-         <property name="text">
-          <string>Sair</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="menuSom">
-     <widget class="QGraphicsView" name="configuracoes_graphicsView">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>1920</width>
-        <height>1080</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QWidget" name="gridLayoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>110</y>
-        <width>431</width>
-        <height>471</height>
-       </rect>
-      </property>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="2">
-        <widget class="QPushButton" name="musicaOff_pushButton">
-         <property name="text">
-          <string>OFF</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="QPushButton" name="efeitosSonorosOff_pushButton">
-         <property name="text">
-          <string>OFF</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QPushButton" name="efeitosSonorosOn_pushButton">
-         <property name="text">
-          <string>ON</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="efeitosSonoros_label">
-         <property name="text">
-          <string>EFEITOS SONOROS</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="musica_label">
-         <property name="text">
-          <string>MÚSICA</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QPushButton" name="musicaOn_pushButton">
-         <property name="text">
-          <string>ON</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="QPushButton" name="voltar_pushButton">
-         <property name="text">
-          <string>VOLTAR</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="fase1Exploracao">
-     <widget class="QGraphicsView" name="fase1Exploracao_graphicsView">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>1920</width>
-        <height>1080</height>
-       </rect>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="fase1Batalha">
-     <widget class="QLabel" name="item2Hero_label">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>369</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="item4Monster_label">
-      <property name="geometry">
-       <rect>
-        <x>770</x>
-        <y>530</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="item1Monster_label">
-      <property name="geometry">
-       <rect>
-        <x>640</x>
-        <y>379</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>text label</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="item4Hero_label">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>520</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="hero_label">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>129</y>
-        <width>250</width>
-        <height>201</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>text label</string>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
-     <widget class="QLabel" name="item3Hero_label">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>520</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="item4Hero_pushButton">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>520</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="item3Monster_label">
-      <property name="geometry">
-       <rect>
-        <x>640</x>
-        <y>530</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QProgressBar" name="healthMonster_progressBar">
-      <property name="geometry">
-       <rect>
-        <x>640</x>
-        <y>80</y>
-        <width>250</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="value">
-       <number>24</number>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="item3Monster_pushButton">
-      <property name="geometry">
-       <rect>
-        <x>640</x>
-        <y>530</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="item2Monster_label">
-      <property name="geometry">
-       <rect>
-        <x>770</x>
-        <y>379</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="item2Monster_pushButton">
-      <property name="geometry">
-       <rect>
-        <x>770</x>
-        <y>379</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="item1Hero_label">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>369</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>TextLabel</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="item2Hero_pushButton">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>369</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="item4Monster_pushButton">
-      <property name="geometry">
-       <rect>
-        <x>770</x>
-        <y>530</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QGraphicsView" name="fase1Batalha_graphicsView">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>1920</width>
-        <height>1080</height>
-       </rect>
-      </property>
-     </widget>
-     <widget class="QLabel" name="monster_label">
-      <property name="geometry">
-       <rect>
-        <x>640</x>
-        <y>129</y>
-        <width>250</width>
-        <height>201</height>
-       </rect>
-      </property>
-      <property name="lineWidth">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
        <number>0</number>
       </property>
-      <property name="text">
-       <string>text label</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-      <property name="wordWrap">
-       <bool>false</bool>
-      </property>
-      <property name="margin">
-       <number>1</number>
-      </property>
-      <property name="indent">
-       <number>0</number>
-      </property>
-      <property name="openExternalLinks">
-       <bool>true</bool>
-      </property>
-      <property name="textInteractionFlags">
-       <set>Qt::TextInteractionFlag::LinksAccessibleByMouse</set>
-      </property>
+      <widget class="QWidget" name="menu">
+       <widget class="QGraphicsView" name="menu_graphicsView">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1920</width>
+          <height>1080</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>110</y>
+          <width>501</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="iniciarJogo_pushButton">
+           <property name="text">
+            <string>Iniciar Jogo</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="configuracoes_pushButton">
+           <property name="text">
+            <string>Configurações</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="sair_pushButton">
+           <property name="text">
+            <string>Sair</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="menuSom">
+       <widget class="QGraphicsView" name="configuracoes_graphicsView">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1920</width>
+          <height>1080</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QWidget" name="gridLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>110</y>
+          <width>431</width>
+          <height>471</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="2">
+          <widget class="QPushButton" name="musicaOff_pushButton">
+           <property name="text">
+            <string>OFF</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="efeitosSonorosOff_pushButton">
+           <property name="text">
+            <string>OFF</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="efeitosSonorosOn_pushButton">
+           <property name="text">
+            <string>ON</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="efeitosSonoros_label">
+           <property name="text">
+            <string>EFEITOS SONOROS</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="musica_label">
+           <property name="text">
+            <string>MÚSICA</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="musicaOn_pushButton">
+           <property name="text">
+            <string>ON</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QPushButton" name="voltar_pushButton">
+           <property name="text">
+            <string>VOLTAR</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="fase1Exploracao">
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QGraphicsView" name="fase1Exploracao_graphicsView"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="fase1Batalha">
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0" rowspan="5" colspan="5">
+         <widget class="QGraphicsView" name="fase1Batalha_graphicsView"/>
+        </item>
+        <item row="1" column="1" rowspan="2">
+         <widget class="QPushButton" name="item1Hero_pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2" rowspan="2">
+         <widget class="QPushButton" name="item2Hero_pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QPushButton" name="item1Monster_pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="4">
+         <widget class="QPushButton" name="item2Monster_pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1" rowspan="2">
+         <widget class="QPushButton" name="item3Hero_pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2" rowspan="2">
+         <widget class="QPushButton" name="item4Hero_pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QPushButton" name="item3Monster_pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="4">
+         <widget class="QPushButton" name="item4Monster_pushButton">
+          <property name="text">
+           <string>PushButton</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+       <widget class="QLabel" name="item2Hero_label">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>369</y>
+          <width>120</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="item4Monster_label">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>530</y>
+          <width>120</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="item1Monster_label">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>379</y>
+          <width>120</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>text label</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="item4Hero_label">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>520</y>
+          <width>120</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="hero_label">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>129</y>
+          <width>250</width>
+          <height>201</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>text label</string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="item3Hero_label">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>520</y>
+          <width>120</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="item3Monster_label">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>530</y>
+          <width>120</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QProgressBar" name="healthMonster_progressBar">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>80</y>
+          <width>250</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="value">
+         <number>24</number>
+        </property>
+       </widget>
+       <widget class="QLabel" name="item2Monster_label">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>379</y>
+          <width>120</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="item1Hero_label">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>369</y>
+          <width>120</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="monster_label">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>129</y>
+          <width>250</width>
+          <height>201</height>
+         </rect>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="text">
+         <string>text label</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+        <property name="margin">
+         <number>1</number>
+        </property>
+        <property name="indent">
+         <number>0</number>
+        </property>
+        <property name="openExternalLinks">
+         <bool>true</bool>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::TextInteractionFlag::LinksAccessibleByMouse</set>
+        </property>
+       </widget>
+       <widget class="QProgressBar" name="healthHero_progressBar">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>80</y>
+          <width>250</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="value">
+         <number>24</number>
+        </property>
+       </widget>
+       <zorder>item3Hero_pushButton</zorder>
+       <zorder>item1Monster_pushButton</zorder>
+       <zorder>item1Hero_pushButton</zorder>
+       <zorder>item4Hero_pushButton</zorder>
+       <zorder>item3Monster_pushButton</zorder>
+       <zorder>item2Monster_pushButton</zorder>
+       <zorder>item2Hero_pushButton</zorder>
+       <zorder>item4Monster_pushButton</zorder>
+       <zorder>fase1Batalha_graphicsView</zorder>
+       <zorder>monster_label</zorder>
+       <zorder>healthHero_progressBar</zorder>
+       <zorder>healthMonster_progressBar</zorder>
+       <zorder>hero_label</zorder>
+       <zorder>item1Hero_label</zorder>
+       <zorder>item1Monster_label</zorder>
+       <zorder>item2Hero_label</zorder>
+       <zorder>item2Monster_label</zorder>
+       <zorder>item3Hero_label</zorder>
+       <zorder>item3Monster_label</zorder>
+       <zorder>item4Hero_label</zorder>
+       <zorder>item4Monster_label</zorder>
+      </widget>
      </widget>
-     <widget class="QPushButton" name="item1Hero_pushButton">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>369</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="item3Hero_pushButton">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>520</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="item1Monster_pushButton">
-      <property name="geometry">
-       <rect>
-        <x>640</x>
-        <y>379</y>
-        <width>120</width>
-        <height>120</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QProgressBar" name="healthHero_progressBar">
-      <property name="geometry">
-       <rect>
-        <x>170</x>
-        <y>80</y>
-        <width>250</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="value">
-       <number>24</number>
-      </property>
-     </widget>
-     <zorder>item3Hero_pushButton</zorder>
-     <zorder>item1Monster_pushButton</zorder>
-     <zorder>item1Hero_pushButton</zorder>
-     <zorder>item4Hero_pushButton</zorder>
-     <zorder>item3Monster_pushButton</zorder>
-     <zorder>item2Monster_pushButton</zorder>
-     <zorder>item2Hero_pushButton</zorder>
-     <zorder>item4Monster_pushButton</zorder>
-     <zorder>fase1Batalha_graphicsView</zorder>
-     <zorder>monster_label</zorder>
-     <zorder>healthHero_progressBar</zorder>
-     <zorder>healthMonster_progressBar</zorder>
-     <zorder>hero_label</zorder>
-     <zorder>item1Hero_label</zorder>
-     <zorder>item1Monster_label</zorder>
-     <zorder>item2Hero_label</zorder>
-     <zorder>item2Monster_label</zorder>
-     <zorder>item3Hero_label</zorder>
-     <zorder>item3Monster_label</zorder>
-     <zorder>item4Hero_label</zorder>
-     <zorder>item4Monster_label</zorder>
-    </widget>
-   </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

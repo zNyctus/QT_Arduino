@@ -53,7 +53,7 @@
         <file>sprites/personagem/e4.png</file>
         <file>sprites/personagem/e5.png</file>
         <file>sprites/personagem/e6.png</file>
-        <file>sprites/personagem/paradoD.png</file>
         <file>sprites/personagem/paradoE.png</file>
+        <file>sprites/personagem/paradoD.png</file>
     </qresource>
 </RCC>
