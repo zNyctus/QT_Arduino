@@ -1,0 +1,59 @@
+<RCC>
+    <qresource prefix="/equipamento">
+        <file>sprites/equipamento/armor.png</file>
+        <file>sprites/equipamento/axeDouble2.png</file>
+        <file>sprites/equipamento/blablabla.png</file>
+        <file>sprites/equipamento/potionBlue.png</file>
+        <file>sprites/equipamento/potionGreen.png</file>
+        <file>sprites/equipamento/potionRed.png</file>
+        <file>sprites/equipamento/shield.png</file>
+        <file>sprites/equipamento/swordWood.png</file>
+        <file>sprites/equipamento/upg_armor.png</file>
+        <file>sprites/equipamento/upg_axeDouble.png</file>
+        <file>sprites/equipamento/upg_hammer.png</file>
+        <file>sprites/equipamento/upg_sword.png</file>
+        <file>sprites/equipamento/weapon7.png</file>
+    </qresource>
+    <qresource prefix="/fase1">
+        <file>sprites/fase1/cerca_img.png</file>
+        <file>sprites/fase1/cercaQuebrada_img.png</file>
+        <file>sprites/fase1/enfeites_img.png</file>
+        <file>sprites/fase1/escada_img.png</file>
+        <file>sprites/fase1/key_img.png</file>
+        <file>sprites/fase1/lock_img.png</file>
+        <file>sprites/fase1/nuvem_img.png</file>
+        <file>sprites/fase1/nuvem2_img.png</file>
+        <file>sprites/fase1/piso1_img.png</file>
+        <file>sprites/fase1/piso2_img.png</file>
+        <file>sprites/fase1/piso3_img.png</file>
+        <file>sprites/fase1/piso4_img.png</file>
+        <file>sprites/fase1/ponte1_img.png</file>
+        <file>sprites/fase1/tilesetOpenGameBackground.png</file>
+    </qresource>
+    <qresource prefix="/fase1Monstro">
+        <file>sprites/fase1/monstro/arm 2 r.png</file>
+        <file>sprites/fase1/monstro/arm with shield.png</file>
+        <file>sprites/fase1/monstro/ataque.png</file>
+        <file>sprites/fase1/monstro/defesa.png</file>
+        <file>sprites/fase1/monstro/hand l.png</file>
+        <file>sprites/fase1/monstro/hand with sword.png</file>
+        <file>sprites/fase1/monstro/head.png</file>
+        <file>sprites/fase1/monstro/morto.png</file>
+    </qresource>
+    <qresource prefix="/personagem">
+        <file>sprites/personagem/d1.png</file>
+        <file>sprites/personagem/d2.png</file>
+        <file>sprites/personagem/d3.png</file>
+        <file>sprites/personagem/d4.png</file>
+        <file>sprites/personagem/d5.png</file>
+        <file>sprites/personagem/d6.png</file>
+        <file>sprites/personagem/e1.png</file>
+        <file>sprites/personagem/e2.png</file>
+        <file>sprites/personagem/e3.png</file>
+        <file>sprites/personagem/e4.png</file>
+        <file>sprites/personagem/e5.png</file>
+        <file>sprites/personagem/e6.png</file>
+        <file>sprites/personagem/paradoD.png</file>
+        <file>sprites/personagem/paradoE.png</file>
+    </qresource>
+</RCC>
